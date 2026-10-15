@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>piano</title>
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+          /* background: url(../black\ image.webp);  */
+    }
+    #keydetect{
+       display: flex; 
+      font-size: 40px;
+      font-family: Arial,sans-serif; 
+      color:black;
+      text-align: center;
+      align-content: center;
+    }
+    #keydetect div{
+        height: 300px;
+        width: 50px;
+        border: 1px solid;
+        line-height: 550px;
+        
+    }
+  </style>
+  
+</head>
+<body>
+    <div id="keydetect">
+        <div class="a">a</div> 
+        <div class="b">b</div>  
+       <div class="c">c</div>
+        <div class="d">d</div> 
+        <div class="e">e</div>
+        <div class="f">f</div>
+        <div class="g">g</div>
+        <div class="h">h</div>
+         <div class="i">i</div>
+        <div class="j">j</div>
+        <div class="k">k</div>
+        <div class="l">l</div> 
+         <div class="m">m</div>
+         <div class="n">n</div> 
+         <div class="o">o</div>
+         <div class="p">p</div>
+          <div class="q">q</div>
+          <div class="r">r</div>
+           <div class="s">s</div>
+            <div class="t">t</div>
+            <div class="u">u</div>
+           <div class="v">v</div>
+           <div class="w">w</div>
+          <div class="x">x</div>
+           <div class="y">y</div>   
+           <div class="z">z</div>            
+    </div>
+    <script>
+         var a = document.querySelector('.a')
+         var b = document.querySelector('.b') 
+        var  c= document.querySelector('.c')
+         var d  = document.querySelector('.d')
+         var ee = document.querySelector('.e')
+         var f = document.querySelector('.f')
+        var g = document.querySelector('.g')
+        var h = document.querySelector('.h')
+        var i = document.querySelector('.i')
+         var j = document.querySelector('.j') 
+         var k = document.querySelector('.k')
+         var l = document.querySelector('.l') 
+          var m = document.querySelector('.m')
+         var n= document.querySelector('.n')
+          var o = document.querySelector('.o')
+           var p = document.querySelector('.p')
+          var q = document.querySelector('.q')
+           var r = document.querySelector('.r')
+            var s= document.querySelector('.s')
+          var t= document.querySelector('.t')
+         var u= document.querySelector('.u')
+          var v = document.querySelector('.v')
+           var w = document.querySelector('.w')
+            var x = document.querySelector('.x')
+             var y= document.querySelector('.y')
+              var z = document.querySelector('.z')  
+                   
+        var keydetect=document.getElementById('keydetect')
+        document.addEventListener('keydown',function(e){
+             
+            if(e.key=='a'){
+                var audio= new Audio('a.wav')
+                a.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 a.style.transform='translateY(10px)'
+                  a.style.color='black'
+           
+               audio.play()
+            }
+              if(e.key=='s'){
+                var audio= new Audio('b.wav')
+                  s.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 s.style.transform='translateY(10px)'
+                  s.style.color='black'
+                audio.play()
+            }
+              if(e.key=='d'){
+                var audio= new Audio('c.wav')
+                 d.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 d.style.transform='translateY(10px)'
+                  d.style.color='black'
+                audio.play()
+            }
+              if(e.key=='f'){
+                var audio= new Audio('d.wav')
+                 f.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 f.style.transform='translateY(10px)'
+                  f.style.color='black'
+                audio.play()
+            }
+              if(e.key=='g'){
+                var audio= new Audio('e.wav')
+                 g.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 g.style.transform='translateY(10px)'
+                  g.style.color='black'
+                audio.play()
+            }
+              if(e.key=='h'){
+                var audio= new Audio('f.wav')
+                 h.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 h.style.transform='translateY(10px)'
+                  h.style.color='black'
+                audio.play()
+            }
+              if(e.key=='j'){
+                var audio= new Audio('g.wav')
+                 j.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 j.style.transform='translateY(10px)'
+                  j.style.color='black'
+                audio.play()
+            }
+              if(e.key=='k'){
+                var audio= new Audio('h.wav')
+                 k.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 k.style.transform='translateY(10px)'
+                  k.style.color='black'
+                audio.play()
+            }
+              if(e.key=='l'){
+                var audio= new Audio('i.wav')
+                l.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 l.style.transform='translateY(10px)'
+                  l.style.color='black'
+                audio.play()
+            }
+              if(e.key=='q'){
+                var audio= new Audio('j.wav')
+                q.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 q.style.transform='translateY(10px)'
+                  q.style.color='black'
+                audio.play()
+            }
+              if(e.key=='w'){
+                var audio= new Audio('k.wav')
+                 w.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 w.style.transform='translateY(10px)'
+                  w.style.color='black'
+                audio.play()
+            }
+              if(e.key=='e'){
+                var audio= new Audio('l.wav')
+                e.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 e.style.transform='translateY(10px)'
+                  e.style.color='black'
+                audio.play()
+            }
+              if(e.key=='r'){
+                var audio= new Audio('m.wav')
+                 r.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 r.style.transform='translateY(10px)'
+                  r.style.color='black'
+                audio.play()
+            }  if(e.key=='t'){
+                var audio= new Audio('n.wav')
+                 t.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 t.style.transform='translateY(10px)'
+                  t.style.color='black'
+                audio.play()
+            }  if(e.key=='y'){
+                var audio= new Audio('o.wav')
+                 y.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 y.style.transform='translateY(10px)'
+                  y.style.color='black'
+                audio.play()
+            }
+              if(e.key=='u'){
+                var audio= new Audio('p.wav')
+                u.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 u.style.transform='translateY(10px)'
+                  u.style.color='black'
+                audio.play()
+            }
+              if(e.key=='i'){
+                var audio= new Audio('p.wav')
+                 i.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 i.style.transform='translateY(10px)'
+                  i.style.color='black'
+                audio.play()
+            }  if(e.key=='o'){
+                var audio= new Audio('k.wav')
+                 o.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 o.style.transform='translateY(10px)'
+                  o.style.color='balck'
+                audio.play()
+            }  if(e.key=='p'){
+                var audio= new Audio('i.wav')
+                p.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 p.style.transform='translateY(10px)'
+                  p.style.color='black'
+                audio.play()
+            }  if(e.key=='z'){
+                var audio= new Audio('j.wav')
+                z.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 z.style.transform='translateY(10px)'
+                  z.style.color='black'
+                audio.play()
+            }  if(e.key=='x'){
+                var audio= new Audio('h.wav')
+                x.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 x.style.transform='translateY(10px)'
+                  x.style.color='black'
+                audio.play()
+            }  if(e.key=='c'){
+                var audio= new Audio('p.wav')
+                 c.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 c.style.transform='translateY(10px)'
+                  c.style.color='black'
+                audio.play()
+            }  if(e.key=='v'){
+                var audio= new Audio('b.wav')
+                v.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 v.style.transform='translateY(10px)'
+                  v.style.color='black'
+                audio.play()
+            }  if(e.key=='b'){
+                var audio= new Audio('g.wav')
+                 b.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 b.style.transform='translateY(10px)'
+                  b.style.color='black'
+                audio.play()
+            }  if(e.key=='n'){
+                var audio= new Audio('f.wav')
+                n.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 n.style.transform='translateY(10px)'
+                  n.style.color='black'
+                audio.play()
+            }  if(e.key=='m'){
+                var audio= new Audio('a.wav')
+                 m.style.boxShadow = "-1px 8px 3px 5px rgba(61, 58, 58, 0.75)";
+                 m.style.transform='translateY(10px)'
+                  m.style.color='black'
+                audio.play()
+            }  if(e.key=='1'){
+                var audio= new Audio('p.wav')
+                 a.style.background='black'
+                  a.style.color='white'
+                audio.play()
+            }  if(e.key=='2'){
+                var audio= new Audio('p.wav')
+                 a.style.background='black'
+                  a.style.color='white'
+                audio.play()
+            }  if(e.key=='3'){
+                var audio= new Audio('d.wav')
+                 a.style.background='black'
+                  a.style.color='white'
+                audio.play()
+            }  if(e.key=='4'){
+                var audio= new Audio('p.wav')
+                 a.style.background='black'
+                  a.style.color='white'
+                audio.play()
+            }  if(e.key=='5'){
+                var audio= new Audio('e.wav')
+                 a.style.background='black'
+                  a.style.color='white'
+                audio.play()
+            }
+        })
+         document.addEventListener('keyup',function(e){
+             
+            if(e.key=='a'){
+                a.style.boxShadow=''
+                a.style.color='black'
+                 a.style.transform='translateY(0px)'
+            }
+              if(e.key=='b'){
+                b.style.boxShadow=''
+                b.style.color='black'
+                 b.style.transform='translateY(0px)'
+            }  if(e.key=='c'){
+                c.style.boxShadow=''
+                c.style.color='black'
+                 c.style.transform='translateY(0px)'
+            }  if(e.key=='d'){
+                d.style.boxShadow=''
+                d.style.color='black'
+                 d.style.transform='translateY(0px)'
+            }  if(e.key=='e'){
+                e.style.boxShadow=''
+                e.style.color='black'
+                 e.style.transform='translateY(0px)'
+            }  if(e.key=='f'){
+                f.style.boxShadow=''
+                f.style.color='black'
+                 f.style.transform='translateY(0px)'
+            }
+             if(e.key=='g'){
+                g.style.boxShadow=''
+                g.style.color='black'
+                 g.style.transform='translateY(0px)'
+            } if(e.key=='h'){
+                h.style.boxShadow=''
+                h.style.color='black'
+                 h.style.transform='translateY(0px)'
+            } if(e.key=='i'){
+                i.style.boxShadow=''
+                i.style.color='black'
+                 i.style.transform='translateY(0px)'
+            } if(e.key=='j'){
+                
+                j.style.boxShadow=''
+                j.style.color='black'
+                 j.style.transform='translateY(0px)'
+            } if(e.key=='k'){
+                a
+                k.style.boxShadow=''
+                k.style.color='black'
+                 k.style.transform='translateY(0px)'
+            } if(e.key=='l'){
+                a
+                l.style.boxShadow=''
+                l.style.color='black'
+                 l.style.transform='translateY(0px)'
+            } if(e.key=='m'){
+                m.style.boxShadow=''
+                m.style.color='black'
+                 m.style.transform='translateY(0px)'
+            } if(e.key=='n'){
+                n.style.boxShadow=''
+                n.style.color='black'
+                 n.style.transform='translateY(0px)'
+            } if(e.key=='o'){
+                o.style.boxShadow=''
+                o.style.color='black'
+                 o.style.transform='translateY(0px)'
+            } if(e.key=='p'){
+                p.style.boxShadow=''
+                p.style.color='black'
+                 p.style.transform='translateY(0px)'
+            } if(e.key=='q'){
+                q.style.boxShadow=''
+                q.style.color='black'
+                 q.style.transform='translateY(0px)'
+            } if(e.key=='r'){
+                r.style.boxShadow=''
+                r.style.color='black'
+                 r.style.transform='translateY(0px)'
+            } if(e.key=='s'){
+                a
+                s.style.boxShadow=''
+                s.style.color='black'
+                 s.style.transform='translateY(0px)'
+            } if(e.key=='t'){
+                t.style.boxShadow=''
+                t.style.color='black'
+                 t.style.transform='translateY(0px)'
+            } if(e.key=='u'){
+                u.style.boxShadow=''
+                u.style.color='black'
+                 u.style.transform='translateY(0px)'
+            } if(e.key=='v'){
+                v.style.boxShadow=''
+                v.style.color='black'
+                 v.style.transform='translateY(0px)'
+            } if(e.key=='w'){
+                w.style.boxShadow=''
+                w.style.color='black'
+                 w.style.transform='translateY(0px)'
+            } if(e.key=='x'){
+                x.style.boxShadow=''
+                x.style.color='black'
+                 x.style.transform='translateY(0px)'
+            } if(e.key=='y'){
+                y.style.boxShadow=''
+                y.style.color='black'
+                 y.style.transform='translateY(0px)'
+            } if(e.key=='z'){
+                z.style.boxShadow=''
+                z.style.color='black'
+                 z.style.transform='translateY(0px)'
+            }
+        })
+    </script>
+</body>
+</html>
